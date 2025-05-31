@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/yangyang/.ohos/config/default_harmony_host_pMMk2X_FZMIAY1JdH4aufkQ3yCYNWmKzHkFJ9rYfu1g=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B593D23F53FBCA1C6D2178D23F20D97813F543F30FE71EEF855CEFDAFE2DC8C91B768782A15B48E",
+          "profile": "/Users/yangyang/.ohos/config/default_harmony_host_pMMk2X_FZMIAY1JdH4aufkQ3yCYNWmKzHkFJ9rYfu1g=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yangyang/.ohos/config/default_harmony_host_pMMk2X_FZMIAY1JdH4aufkQ3yCYNWmKzHkFJ9rYfu1g=.p12",
+          "storePassword": "0000001BD236742136F82CF4AF102FF685271DD944556DDC95DF58F9EC785FD5C2EAE2BB0EE42F62A7DC54"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
