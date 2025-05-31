@@ -1,7 +1,7 @@
 {
   "src": [
     "pages/Index",
-    "pages/test"
-
+    "pages/test",
+    "pages/flutterModulePage"
   ]
 }
