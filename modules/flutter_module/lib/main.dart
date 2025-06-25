@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo xxx',
+      title: 'Flutter Demo To APP',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -98,6 +98,16 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
+            ),
+            const SizedBox(height: 30), // 添加间距
+            ElevatedButton(
+              onPressed: _incrementCounter,
+              style: ElevatedButton.styleFrom(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                textStyle: const TextStyle(fontSize: 16),
+              ),
+              child: const Text('点击增加计数'),
             ),
           ],
         ),

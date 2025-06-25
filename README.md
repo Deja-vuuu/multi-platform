@@ -6,3 +6,10 @@
   ### TODO
   
   软连接不生效
+
+
+
+  https://gitcode.com/openharmony-tpc/flutter_flutter
+
+
+  flutter build hap
