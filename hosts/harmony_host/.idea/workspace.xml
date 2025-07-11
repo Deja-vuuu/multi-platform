@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1863dee8-c98f-4441-88b5-63118e40bb51" name="Changes" comment="" />
+    <list default="true" id="1863dee8-c98f-4441-88b5-63118e40bb51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../apps/harmony_app/.ohpmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,27 +44,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "127.0.0.1:5555": "5375122791750842010888",
-    "Application.entry.executor": "Run",
-    "MODULE_HAP_TIME": "{\"127.0.0.1:5555entry\":\"2025-06-25T09:00:10.498842775Z\"}",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ace.nodejs.version": "18.20.1",
-    "auto_debug_bundleName": "0000002910E90CED0416175BC5E629EB9A24D19D46E9A7E390C3404EC4814BAC0CB572B55118A5C97D28B669CD57A38CAC198712EF7718EDFF",
-    "auto_debug_cert_list": "0000002350B2CD88A6064EF6292E0463298FF13E4036A8CF9E64DE74AD46961FA2DEDE7715806394C393577BE76F41797688C9",
-    "auto_debug_device_list": "000000375E18EA4E306A38AF27C87D1AAFDFA062F9A831BAAC295DE41FE3C9B47B8DE8A660DAF5F73B8278B16BDDAC004BDDAC907E48FF7FBBF198C2B2D589A29E961A520B181D",
-    "auto_debug_package_name": "00000029A42A271D317403FF8CC54BC606E67444520A122521DA6B8D361C5B19888F02CF157C617E3BDDE7BEE84B98C4C230FB4E668C11025B",
-    "auto_debug_team_id": "0000002287C4CCC64CE1656F0C2C8ADCEF89FF9F2D5C94FE1CFDA5D8B72C52E1DF7D127275EDDBF2A31014550040017F8086",
-    "last_opened_file_path": "/Users/yangyang/Desktop/multi-platform/hosts/harmony_host/entry/src/main",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;127.0.0.1:5555&quot;: &quot;5375122791750842010888&quot;,
+    &quot;Application.entry.executor&quot;: &quot;Run&quot;,
+    &quot;MODULE_HAP_TIME&quot;: &quot;{\&quot;127.0.0.1:5555entry\&quot;:\&quot;2025-06-25T09:00:10.498842775Z\&quot;}&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ace.nodejs.version&quot;: &quot;18.20.1&quot;,
+    &quot;auto_debug_bundleName&quot;: &quot;0000002910E90CED0416175BC5E629EB9A24D19D46E9A7E390C3404EC4814BAC0CB572B55118A5C97D28B669CD57A38CAC198712EF7718EDFF&quot;,
+    &quot;auto_debug_cert_list&quot;: &quot;0000002350B2CD88A6064EF6292E0463298FF13E4036A8CF9E64DE74AD46961FA2DEDE7715806394C393577BE76F41797688C9&quot;,
+    &quot;auto_debug_device_list&quot;: &quot;000000375E18EA4E306A38AF27C87D1AAFDFA062F9A831BAAC295DE41FE3C9B47B8DE8A660DAF5F73B8278B16BDDAC004BDDAC907E48FF7FBBF198C2B2D589A29E961A520B181D&quot;,
+    &quot;auto_debug_package_name&quot;: &quot;00000029A42A271D317403FF8CC54BC606E67444520A122521DA6B8D361C5B19888F02CF157C617E3BDDE7BEE84B98C4C230FB4E668C11025B&quot;,
+    &quot;auto_debug_team_id&quot;: &quot;0000002287C4CCC64CE1656F0C2C8ADCEF89FF9F2D5C94FE1CFDA5D8B72C52E1DF7D127275EDDBF2A31014550040017F8086&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yangyang/Desktop/multi-platform/hosts/harmony_host/entry/src/main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   },
-  "keyToStringList": {
-    "reqPermissions": [
+  &quot;keyToStringList&quot;: {
+    &quot;reqPermissions&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/entry/src/main" />
