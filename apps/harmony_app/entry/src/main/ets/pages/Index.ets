@@ -20,7 +20,7 @@ struct Index {
     {
       text: "跳转原生鸿蒙页面",
       clickFun:()=>{
-      router.pushUrl({ url: 'pages/test' })
+      router.pushUrl({ url: 'pages/nativePage' })
     }},
     {
       text: "跳转flutterPage",

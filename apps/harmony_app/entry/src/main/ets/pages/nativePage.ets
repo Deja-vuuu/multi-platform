@@ -1,6 +1,6 @@
 import { router } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
-
+import TButton from '../components/TButton'
 @Entry
 @Component
 struct Second {
@@ -10,24 +10,15 @@ struct Second {
     Column() {
       // 主标题
       Text(this.message)
-        .fontSize(40)
+        .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .fontColor('#333')
         .margin({ bottom: 30 })
 
       // 返回按钮
-      Button() {
-        Text('返回首页')
-          .fontSize(20)
-          .fontWeight(FontWeight.Medium)
-          .fontColor('#fff')
-      }
-      .type(ButtonType.Capsule)
-      .width('60%')
-      .height(60)
-      .backgroundColor('#007AFF') // 更现代蓝色
-      .borderRadius(30)
-      .shadow({ radius: 10, color: '#00000033', offsetX: 0, offsetY: 4 })
+      TButton({
+        text:"返回首页"
+      })
       .onClick(() => {
         try {
           router.back()
