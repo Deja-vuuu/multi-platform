@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1863dee8-c98f-4441-88b5-63118e40bb51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../apps/harmony_app/.ohpmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apps/harmony_app/.ohpmrc" beforeDir="false" afterPath="$PROJECT_DIR$/../../apps/harmony_app/.ohpmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_app/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_app/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -1,0 +1,45 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/yangyang/.ohos/config/default_.ohos_ZTqP7JZXgB_75okUN7dA1d973Ff0eJSD-LBDNIW6Rfk=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAF83DFA0FF206C27CD835AF602291C1399F432917499BBC8293C5B0BB8A9946E45EB0326C9B6C6",
+          "profile": "/Users/yangyang/.ohos/config/default_.ohos_ZTqP7JZXgB_75okUN7dA1d973Ff0eJSD-LBDNIW6Rfk=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yangyang/.ohos/config/default_.ohos_ZTqP7JZXgB_75okUN7dA1d973Ff0eJSD-LBDNIW6Rfk=.p12",
+          "storePassword": "0000001B2B853696C810A574B234498F8090D5D79C1B14DCFF0B006CDB8D7501049730CCAE95D9599C79C5"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flutter_module",
+      "srcPath": "./flutter_module"
+    }
+  ]
+}
