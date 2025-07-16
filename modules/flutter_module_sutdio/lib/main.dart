@@ -1,12 +1,3 @@
-// 平台配置
-
-export const PLATFORM_CONFIG = {
-    flutter: {
-        name: 'Flutter',
-        filename: 'main.dart',
-        language: 'dart',
-        color: '#02569b',
-        code: `
 import 'package:flutter/material.dart';
 import 'dart:async'; // 添加这一行导入Timer
 
@@ -288,8 +279,8 @@ class _TimeUpdatingTextState extends State<_TimeUpdatingText> {
   // 获取格式化的当前时间
   String _getCurrentTime() {
     final now = DateTime.now();
-    return '\${now.year}-\${_twoDigits(now.month)}-\${_twoDigits(now.day)} '
-        '\${_twoDigits(now.hour)}:\${_twoDigits(now.minute)}:\${_twoDigits(now.second)}';
+    return '${now.year}-${_twoDigits(now.month)}-${_twoDigits(now.day)} '
+        '${_twoDigits(now.hour)}:${_twoDigits(now.minute)}:${_twoDigits(now.second)}';
   }
 
   // 辅助方法：确保数字显示为两位数
@@ -302,80 +293,4 @@ class _TimeUpdatingTextState extends State<_TimeUpdatingText> {
   Widget build(BuildContext context) {
     return Text('当前时间: $_timeString');
   }
-}
-`
-    },
-    react: {
-        name: 'React',
-        filename: 'Name.jsx',
-        language: 'jsx',
-        color: '#61dafb',
-        code: `import { useState } from 'react';
-
-function Name() {
-  const [name] = useState('张三');
-  
-  return <h1>你好 {name}</h1>;
-}
-
-export default Name;`
-    },
-    vue: {
-        name: 'Vue',
-        filename: 'Name.vue',
-        language: 'vue',
-        color: '#4fc08d',
-        code: `<template>
-  <h1>你好 {{ name }}</h1>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      name: '张三'
-    }
-  }
-}
-</script>`
-    },
-
-    android: {
-        name: 'Android',
-        filename: 'MainActivity.kt',
-        language: 'kotlin',
-        color: '#3ddc84',
-        code: `class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        
-        val name = "张三"
-        val textView = TextView(this)
-        textView.text = "你好 $name"
-        textView.textSize = 24f
-        
-        setContentView(textView)
-    }
-}`
-    },
-    ios: {
-        name: 'iOS',
-        filename: 'ContentView.swift',
-        language: 'swift',
-        color: '#007aff',
-        code: `import SwiftUI
-
-struct ContentView: View {
-    let name = "张三"
-    
-    var body: some View {
-        Text("你好 \\(name)")
-            .font(.title)
-    }
-}
-
-#Preview {
-    ContentView()
-}`
-    }
 }

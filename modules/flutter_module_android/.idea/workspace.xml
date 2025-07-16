@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="304fa620-800d-484e-810f-d1d7f2a6e715" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apps/android_app/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apps/android_app/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apps/android_app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apps/android_app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finclip-harmony-demo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/AppScope/app.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/AppScope/resources/base/element/color.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/AppScope/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/AppScope/resources/base/media/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/AppScope/resources/base/profile/main_pages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/ets/entryability/EntryAbility.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/ets/pages/Index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/module.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/resources/base/element/color.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/resources/base/media/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/resources/base/profile/main_pages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/resources/en_US/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/main/resources/zh_CN/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/ets/test/Ability.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/ets/test/List.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/ets/testability/TestAbility.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/ets/testability/pages/Index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/module.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/resources/base/element/color.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/resources/base/media/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/entry/src/ohosTest/resources/base/profile/test_pages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/flutter_module/src/main/ets/plugins/GeneratedPluginRegistrant.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/hvigor/hvigor-config.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hosts/harmony_host/.ohos/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_module/.android/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_module/.android/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2zuF6aWDsUZIgax4V0aCqBn470B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="304fa620-800d-484e-810f-d1d7f2a6e715" name="Changes" comment="" />
+      <created>1752572882830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752572882830</updated>
+    </task>
+    <servers />
+  </component>
+</project>
