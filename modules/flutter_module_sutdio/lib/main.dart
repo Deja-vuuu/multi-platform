@@ -149,8 +149,6 @@ class AgentInfoCard extends StatelessWidget {
                   ),
                 ),
 
-                // 电话图标
-                const SizedBox(width: 107),
                 // 右侧按钮区域
                 Row(
                   children: [

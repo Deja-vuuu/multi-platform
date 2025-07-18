@@ -112,7 +112,7 @@ const CompareApp = () => {
   const gridColumns = useMemo(() => {
     const count = selectedPlatforms.length;
     if (count === 0) return '1fr';
-    if (count <= 4) return `repeat(${count}, 1fr)`;
+    if (count <= MAX_SELECTION) return `repeat(${count}, 1fr)`;
     return '1fr';
   }, [selectedPlatforms.length]);
 
