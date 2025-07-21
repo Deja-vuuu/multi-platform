@@ -31,10 +31,12 @@ const PlatformSelector = memo(({ platformKey, platform, isSelected, selectionInd
 
 // 代码面板组件
 const CodePanel = memo(({ platformKey, platform, onRemove }) => {
+  console.log(platform);
+
   return (
     <div key={platformKey} className="code-panel">
       <div className="panel-header">
-        <div className="platform-icon" style={{ backgroundColor: platform.color }}>
+        <div className="platform-icon" style={{ backgroundColor: platform?.color }}>
           {platform.name.charAt(0)}
         </div>
         <div className="panel-info">
@@ -87,7 +89,7 @@ const CodeHighlighter = memo(({ code, language = 'javascript' }) => {
 
 // 主应用组件
 const CompareApp = () => {
-  const [selectedPlatforms, setSelectedPlatforms] = useState(['flutter', 'react']);
+  const [selectedPlatforms, setSelectedPlatforms] = useState(['flutter']);
 
   // 处理平台选择/取消
   const handlePlatformToggle = useCallback((platformKey) => {
